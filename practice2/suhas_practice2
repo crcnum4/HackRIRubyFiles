@@ -1,0 +1,14 @@
+def problem(fname,lname)
+    puts "first_name: #{fname}."
+    puts "last_name: #{lname}."
+end
+
+
+first_input = gets.chomp
+last_input = gets.chomp
+
+
+problem(first_input, last_input)
+
+
+name_length = (first_input + last_input).length
